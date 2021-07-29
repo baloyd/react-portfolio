@@ -1,0 +1,42 @@
+{
+  "short_name": "Portfolio",
+  "name": "React Portfolio",
+  "icons": [
+    {
+      "src": "banner.jpg",
+      "sizes": "3000x1999",
+      "type": "image/jpg"
+    },
+    {
+      "src": "atmos.png",
+      "type": "image/png",
+      "sizes": "1903x1004"
+    },
+    {
+      "src": "scheduler.png",
+      "type": "image/png",
+      "sizes": "1021x828"
+    },
+   
+    {
+      "src": "weather.png",
+      "type": "image/png",
+      "sizes": "1451x821"
+    },
+    {
+      "src": "roundtable.jpg",
+      "type": "image/png",
+      "sizes": "1486×835"
+    },
+    {
+      "src": "profile.png",
+      "type": "image/png",
+      "sizes": "1049×764"
+    }
+   
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
