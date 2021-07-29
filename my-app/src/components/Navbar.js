@@ -15,7 +15,7 @@ function Navbar() {
               <a href="#Resume">Resume</a>
           </nav>
       </header>
-      <img className="banner"></img>
+      <img className="banner" alt=""></img>
       </div>
     );
 }
