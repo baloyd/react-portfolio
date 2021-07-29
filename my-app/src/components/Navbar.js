@@ -1,9 +1,12 @@
 import React from 'react';
 import '../styles/App.css';
 
+
+
 function Navbar() {
     return (
-        <header class="header">
+        <div>
+        <header className="header">
           <h1>Daniel Baloy</h1>
           <nav id="nav">
               <a href="#Bio">Bio</a>
@@ -12,6 +15,8 @@ function Navbar() {
               <a href="#Resume">Resume</a>
           </nav>
       </header>
+      <img className="banner"></img>
+      </div>
     );
 }
 
