@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/App.css';
-import github from '../images/GitHub-Mark-Light-64px.png'
-import linkedin from '../images/LinkedIn-64px.png'
-import insta from '../images/Insta-64px.png'
+import '../../styles/App.css';
+import github from '../../images/GitHub-Mark-Light-64px.png'
+import linkedin from '../../images/LinkedIn-64px.png'
+import insta from '../../images/Insta-64px.png'
 
 
 function Footer()
