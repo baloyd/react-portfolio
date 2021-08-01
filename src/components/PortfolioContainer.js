@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Resume') {
       return <Resume />;
-    }
+    }else return <Bio />
    
   };
 

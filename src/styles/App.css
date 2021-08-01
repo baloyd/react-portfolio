@@ -2,7 +2,7 @@
   --primary: bisque;
   --secondary: rgb(124, 123, 128);
   --tertiary: white;
-  --quaternary:rgb(48, 77, 48);
+  --quaternary:rgb(63, 116, 63);
  
 
 }
@@ -41,9 +41,13 @@ h1, h2, h3, h4 {
   border-color:var(--tertiary);
   padding: 0.2% 7% 0.2% 7%;
   font-size:50px;
-  text-decoration: underline var(--primary)
-  
+  text-decoration: underline var(--primary);
+  font-family: 'Fugaz One', cursive;
 
+}
+
+h1 {
+  font-size: 75px;
 }
 
 
@@ -51,8 +55,21 @@ h1, h2, h3, h4 {
 nav a {
   margin: 8px;
   text-decoration: underline var(--tertiary);
-  font-size: 20px;
+  font-size: 30px;
+  color:var(--secondary);
+  font-family: 'Fugaz One', cursive;
+  
 
+}
+
+nav a:hover{
+  color: var(--quaternary);
+  opacity:75%;
+}
+
+.nav-active {
+
+color: var(--quaternary);
 }
 
 /*banner*/
@@ -109,10 +126,7 @@ h5 {
   font-size: 25px;
   color:var(--tertiary);
   padding-right: 25px;
- border: solid 2px var(--quaternary);
- border-top-right-radius: 20px;
- border-bottom-right-radius: 20px;
- background-color:var(--quaternary);
+
  opacity: 100%;
   
 }

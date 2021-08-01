@@ -7,30 +7,30 @@ function Navbar({currentPage, handlePageChange}) {
     return (
         <div>
         <header className="header">
-          <h1 className="text-muted">Daniel Baloy</h1>
-          <nav id="nav">
+          <h1 >Daniel Baloy</h1>
+          <nav id="nav" className="text-muted" >
               <a href="#Bio"
                onClick={() => handlePageChange('Bio')}
                 className=
-                {currentPage === 'Bio' ? 'nav-link active' : 'nav-link'} >
+                {currentPage === 'Bio' ? 'nav-active' : 'nav ' }  >
                     Bio</a>
 
               <a href="#Portfolio"
               onClick={() => handlePageChange('Portfolio')} 
               className=
-              {currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
+              {currentPage === 'Portfolio' ? 'nav-active' : 'nav'}>
                   Portfolio</a>
 
               <a href="#Contact"
                onClick={() => handlePageChange('Contact')}
                 className=
-                {currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+                {currentPage === 'Contact' ? 'nav-active' : 'nav'}>
                     Contact</a>
 
               <a href="#Resume"
               onClick={() => handlePageChange('Resume')} 
               className=
-                {currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+                {currentPage === 'Resume' ? 'nav-active' : 'nav'}>
                     Resume</a>
           </nav>
       </header>
