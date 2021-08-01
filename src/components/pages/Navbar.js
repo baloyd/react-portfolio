@@ -8,7 +8,7 @@ function Navbar({currentPage, handlePageChange}) {
         <div>
         <header className="header">
           <h1 >Daniel Baloy</h1>
-          <nav id="nav" className="text-muted" >
+          <nav id="nav">
               <a href="#Bio"
                onClick={() => handlePageChange('Bio')}
                 className=

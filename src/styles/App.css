@@ -57,6 +57,7 @@ nav a {
   text-decoration: underline var(--tertiary);
   font-size: 30px;
   color:var(--secondary);
+  transition: opacity 1s;
   font-family: 'Fugaz One', cursive;
   
 
@@ -64,7 +65,7 @@ nav a {
 
 nav a:hover{
   color: var(--quaternary);
-  opacity:75%;
+  opacity:50%;
 }
 
 .nav-active {
