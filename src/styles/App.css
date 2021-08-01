@@ -278,6 +278,11 @@ transition: all 0.2s ease-in-out;
   
 }
 
+.footer a:hover {
+  opacity: 50%;
+  transition: opacity 1s;
+}
+
 /*Contact form styling */
 .form {
  margin:20px;

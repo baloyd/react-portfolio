@@ -10,28 +10,33 @@
     {
       "src": "atmos.png",
       "type": "image/png",
-      "sizes": "1903x1004"
+      "sizes": "300x200"
     },
     {
       "src": "scheduler.png",
       "type": "image/png",
-      "sizes": "1021x828"
+      "sizes": "300x200"
     },
    
     {
       "src": "weather.png",
       "type": "image/png",
-      "sizes": "1451x821"
+      "sizes": "300x200"
     },
     {
       "src": "roundtable.jpg",
       "type": "image/png",
-      "sizes": "1486×835"
+      "sizes": "300x200"
     },
     {
       "src": "profile.png",
       "type": "image/png",
-      "sizes": "1049×764"
+      "sizes": "300x200"
+    },
+    {
+      "src": "fitness.jpg",
+      "type": "image/jpg",
+      "sizes": "300x200"
     },
     {
       "src": "GitHub-Mark-32px.png",
