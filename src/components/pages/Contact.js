@@ -47,8 +47,7 @@ const [password,setPassword] =useState('');
   };
 
   return (
-    <div>
-      <p>Hello {userName}</p>
+    <div className="form">
       <form className="form">
         <input
           value={email}
