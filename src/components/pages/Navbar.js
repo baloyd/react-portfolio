@@ -27,7 +27,7 @@ function Navbar({currentPage, handlePageChange}) {
                 {currentPage === 'Contact' ? 'nav-active' : 'nav'}>
                     Contact</a>
 
-              <a href="#Resume"
+              <a href="https://docs.google.com/document/d/e/2PACX-1vT8Knp2NcwgbUwfddmB2MBI3pKrOYTraKt489A_5a8oxybH52cK98iIalzbDLmTqIawKFjmJ9ZTBf6G/pub" target="_blank" rel="noreferrer"
               onClick={() => handlePageChange('Resume')} 
               className=
                 {currentPage === 'Resume' ? 'nav-active' : 'nav'}>
