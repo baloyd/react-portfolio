@@ -72,12 +72,17 @@ const [password,setPassword] =useState('');
           placeholder="password"
         />
         <button onClick={handleFormSubmit}>Submit</button>
+        
       </form>
+      <a className="form" href="mailto:danielbaloy@gmail.com}">Email: danielbaloy@gmail.com</a>
+      
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
+         
         </div>
       )}
+     
     </div>
   );
 }
