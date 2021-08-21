@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.eb49c518.chunk.css",
+    "main.css": "/react-portfolio/static/css/main.7bc8eec4.chunk.css",
     "main.js": "/react-portfolio/static/js/main.e4af48df.chunk.js",
     "main.js.map": "/react-portfolio/static/js/main.e4af48df.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.49e8262d.js",
@@ -8,7 +8,7 @@
     "static/js/2.427ef30b.chunk.js": "/react-portfolio/static/js/2.427ef30b.chunk.js",
     "static/js/2.427ef30b.chunk.js.map": "/react-portfolio/static/js/2.427ef30b.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.eb49c518.chunk.css.map": "/react-portfolio/static/css/main.eb49c518.chunk.css.map",
+    "static/css/main.7bc8eec4.chunk.css.map": "/react-portfolio/static/css/main.7bc8eec4.chunk.css.map",
     "static/js/2.427ef30b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.427ef30b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/react-portfolio/static/media/weather.d84e1db4.png",
     "static/media/polaroid-frame.bfb709b0.png": "/react-portfolio/static/media/polaroid-frame.bfb709b0.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.49e8262d.js",
     "static/js/2.427ef30b.chunk.js",
-    "static/css/main.eb49c518.chunk.css",
+    "static/css/main.7bc8eec4.chunk.css",
     "static/js/main.e4af48df.chunk.js"
   ]
 }
