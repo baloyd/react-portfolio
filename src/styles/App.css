@@ -136,7 +136,6 @@ h5 {
   font-size: 25px;
   color:var(--secondary);
   padding-right: 25px;
- opacity: 100%;
  font-family: 'Fugaz One', cursive;
  
 }
@@ -280,7 +279,7 @@ transition: all 0.2s ease-in-out;
 
 .footer a:hover {
   opacity: 50%;
-  transition: opacity 1s;
+  transition: 1s;
 }
 
 /*Contact form styling */
