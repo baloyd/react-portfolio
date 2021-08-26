@@ -14,8 +14,8 @@ function Bio() {
                Front-end web developer utilizing a fine art background to create a superior, polished UI. <br></br>
                Recently earned a certificate from University of Miami’s Full Stack Web Development Coding Boot Camp. <br></br>
                Self-motivated, adaptable problem-solver that feels just as at ease taking the lead on a project as in working as part of a team.<br></br>
-                Recently collaborated on creating a full stack app that curates travel recommendations in select cities.<br></br>
-                
+                Recently collaborated on creating a full stack app that curates travel recommendations in select cities.<br></br></p>
+                <h5 id="skills">
    My skills include:{" "}
               <Typical
                 className="font-mono"
@@ -34,9 +34,11 @@ function Bio() {
                   1000,
                   "Bulma",
                   1000,
-                  "Adobe Creative Suite",
+                  "Adobe Creative Cloud",
                   1000,
                   "MongoDB",
+                  1200,
+                  "Mongoose",
                   1200,
                   "Node.js",
                   1000,
@@ -44,12 +46,14 @@ function Bio() {
                   1000,
                   "MySQL",
                   1000,
+                  "GraphQL",
+                  1000,
                  
                 ]}
                 loop={Infinity}
                 wrapper="p"
               />
-          </p>
+          </h5>
           
       </article>
     

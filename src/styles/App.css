@@ -58,7 +58,7 @@ nav a {
   text-decoration: underline var(--tertiary);
   font-size: 30px;
   color:var(--secondary);
-  transition: opacity 1s;
+ 
   font-family: 'Fugaz One', cursive;
   
 
@@ -66,7 +66,9 @@ nav a {
 
 nav a:hover{
   color: var(--quaternary);
-  opacity:50%;
+  opacity: 0.75;
+transition: opacity 1s;
+  
 }
 
 .nav-active {
@@ -102,6 +104,7 @@ color: var(--quaternary);
 .article p {
   margin: 5%;
   line-height: 3vh;
+  display: block;
 }
 
 
@@ -137,6 +140,7 @@ h5 {
   color:var(--secondary);
   padding-right: 25px;
  font-family: 'Fugaz One', cursive;
+ display: block;
  
 }
 
@@ -232,8 +236,8 @@ transition: all 0.2s ease-in-out;
 
 }
 
-.scheduler {
-  background-image: url("../images/Scheduler.png");
+.book {
+  background-image: url("../images/book.jpg");
 
 }
 
@@ -242,8 +246,8 @@ transition: all 0.2s ease-in-out;
 
 }
 
-.roundTable {
-  background-image: url("../images/roundtable.jpg");
+.travlr {
+  background-image: url("../images/travlr.jpg");
 
 }
 
@@ -278,7 +282,7 @@ transition: all 0.2s ease-in-out;
 }
 
 .footer a:hover {
-  opacity: 50%;
+  opacity: 0.75;
   transition: 1s;
 }
 
@@ -315,11 +319,13 @@ transition: all 0.2s ease-in-out;
     padding:30px;
     
   }
+
+  
  
 }
 
 @media screen and (max-width: 1150px) {
-  .header{
+  .header, #skills{
       flex-wrap:wrap;
           justify-content: center;
           align-items: center;

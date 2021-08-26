@@ -12,19 +12,21 @@ function Portfolio() {
   
           <a href="https://vyncent-t.github.io/atmosphere-project/" class="view view-first atmos" >
             <div className="mask">
-              <h5>Atmos Project</h5> 
+              <h5>Atmos <a href="https://github.com/vyncent-t/atmosphere-project"><img alt="" src={github}></img></a></h5> 
               <p>Brings music & visuals together to create a personalized experience.</p>
-              <a href="https://github.com/vyncent-t/atmosphere-project"><img alt="" src={github}></img></a>
+              <p>This app was built using the Spotify & Youtube APIs, Bulma for the styling & JavaScript.</p>
+              
               
               
             </div>
           </a>
           
-          <a href="https://baloyd.github.io/workday-scheduler/" class="view view-first scheduler" >
+          <a href="https://agile-basin-91759.herokuapp.com/" class="view view-first book" >
             <div className="mask">
-              <h5>Workday Scheduler</h5> 
-              <p>Plan out your day with color coded blocks that update in real-time.</p>
-              <a href="https://github.com/baloyd/workday-scheduler"><img alt="" src={github}></img></a>
+              <h5>Book Search Engine <a href="https://github.com/baloyd/book-search-engine"><img alt="" src={github}></img></a></h5> 
+              <p>Browse for different books and save them to your profile.</p>
+              <p>This app was built using React, MongoDB, Apollo client server, GraphQL API & Google Books API.</p>
+              <a href="https://github.com/baloyd/book-search-engine"><img alt="" src={github}></img></a>
 
              
               
@@ -32,18 +34,20 @@ function Portfolio() {
           </a>
           <a href="https://baloyd.github.io/weather-dashboard/" class="view view-first weather" >
             <div className="mask">
-              <h5>Weather Dashboard</h5>
+              <h5>Weather Dashboard  <a href="https://github.com/baloyd/weather-dashboard"><img alt="" src={github}></img></a></h5>
              <p>Search and manage forecasts for multiple cities and receive a 5-day forecast.</p>
-               <a href="https://github.com/baloyd/weather-dashboard"><img alt="" src={github}></img></a>
+             <p>This app was built using HTML, CSS/Bootstrap, JavaScript and utilizes the Open Weather API.</p>
+              
             
             </div>
           </a>
   
-          <a href="https://roundtable-online-book-club.herokuapp.com/" class="view view-first roundTable" >
+          <a href="https://travlr-proj.herokuapp.com/" class="view view-first travlr" >
             <div className="mask">
-              <h5>RoundTable</h5>
-              <p>An online book club where users can discuss,rate,and vote on future book discussions.</p>
-               <a href="https://github.com/emilyfern121/book-club"><img alt="" src={github}></img></a>
+              <h5>Travlr        <a href="https://github.com/vyncent-t/travlr-project"><img alt="" src={github}></img></a></h5>
+              <p>Browse and post travel recommendations for the adventure seeking user.</p>
+              <p>This app was built using React, React-Bootstrap, Mongoose, GraphQL, & JavaScript</p>
+           
               
             </div>
           </a>
@@ -51,18 +55,20 @@ function Portfolio() {
       
           <a href="https://drive.google.com/file/d/1X_oyoRP5hlemimY-21Cw9CmEf7rjvoTd/view" class="view view-first profile" >
             <div className="mask">
-              <h5>Team Profile Generator</h5>
+              <h5>Team Profile Generator   <a href="https://github.com/baloyd/teamProfile-generator"><img alt="" src={github}></img></a></h5>
               <p>Dynamically generate an html document through Node that contains your teams info.</p>
-               <a href="https://github.com/baloyd/teamProfile-generator"><img alt="" src={github}></img></a>
+              <p>This app was built using HTML, CSS, JavaScript, & Node.js with the Inquirer package serving as the user interface.</p>
+              
               
             </div>
           </a>
 
           <a href="https://evening-bayou-86840.herokuapp.com/" class="view view-first fitness" >
             <div className="mask">
-              <h5>Fitness Tracker</h5>
+              <h5>Fitness Tracker     <a href="https://github.com/baloyd/fitness-tracker"><img alt="" src={github}></img></a></h5>
               <p>Keep track of your daily workouts and view your progress over a variety of stats.</p>
-               <a href="https://github.com/baloyd/fitness-tracker"><img alt="" src={github}></img></a>
+              <p>This App utilizes Mongoose as the relational database and Express as the server.</p>
+            
               
             </div>
           </a>
